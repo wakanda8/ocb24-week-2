@@ -67,15 +67,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    min-width: 294px;
     min-height: 577px;
     border-radius: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer-1 {
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -85,10 +85,13 @@ body {
     min-height: 88px;
     background-color: #2A2C2E;
     margin-top: 25px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .footer-2 {
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -97,4 +100,7 @@ body {
     max-width: 1248px;
     min-height: 40px;
     background-color: #000000;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
 }
